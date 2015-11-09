@@ -50,13 +50,10 @@
      <Compile Include="Assets\Scripts\DialogueParser.cs" />
      <Compile Include="Assets\Scripts\MenuButtonClick.cs" />
      <Compile Include="Assets\Scripts\charController.cs" />
-     <None Include="Assets\Resources\Resources\Shader\Unlit Alpha.shader" />
      <None Include="Assets\Resources\Dialogue_Files\Scene1 - New.txt" />
      <None Include="Assets\Resources\Dialogue_Files\Scene2.txt" />
-     <None Include="Assets\Resources\Resources\BGM\ReadMe.txt" />
      <None Include="Assets\Resources\Scene1.txt" />
      <None Include="Assets\Resources\Dialogue_Files\Scene1.txt" />
-     <None Include="Assets\Resources\Resources\Effects\ReadMe.txt" />
      <None Include="Assets\Resources\Dialogue_Files\Scene0.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

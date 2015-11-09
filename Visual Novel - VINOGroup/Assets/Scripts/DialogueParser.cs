@@ -15,6 +15,7 @@ public class DialogueParser : MonoBehaviour {
 		int level = Application.loadedLevel;
 		Debug.Log ("Scene"+(level-2));
 		LoadDialogueFromFile ("Scene0");
+//		LoadDialogueFromFile ("Scene"+(level-2));
 	}
 	
 	// Update is called once per frame
@@ -34,9 +35,12 @@ public class DialogueParser : MonoBehaviour {
 				count ++;
 				if (line != null && !regx.IsMatch(line))
 				{
-					string[] entries = line.Split('~');
-					if (entries.Length > 0)
-						LoadList(entries,count);
+					if(line.Trim() != "")
+					{
+						string[] entries = line.Split('~');
+						if (entries.Length > 0)
+							LoadList(entries,count);
+					}
 				}
 
 			}

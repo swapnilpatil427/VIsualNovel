@@ -12,7 +12,7 @@ public class Dialogue : MonoBehaviour {
 	string[] choices4seg;
 	public Text dialoguetext;
 	List<int> choicesstart;
-	bool FromResetChoice;
+	bool FromResetChoice,dialoguefinished;
 	int choiceends,choicegoto;
 	public float letterpause;
 	public GameObject BackGround;
@@ -52,6 +52,7 @@ public class Dialogue : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		typetextcoroutine = null;
+		dialoguefinished = true;
 		choicesstart = new List<int> ();
 		choicepanelvisible = false;
 		dp =GameObject.Find ("DialogueParser").GetComponent<DialogueParser> ();
@@ -62,54 +63,62 @@ public class Dialogue : MonoBehaviour {
 
 	public void MouseButtonClick(bool fromprevious)
 	{	
+		if (dialoguefinished == true) {
+			if (choicepanelvisible == false) {
+				if (linenumber < dp.scenedialogues.Count) {
 
-		if (linenumber < dp.scenedialogues.Count) {
+					if (endofchoices != -1) {
+						if (linenumber == choiceends)
+							linenumber = choicegoto;
+					}
 
-			if (endofchoices != -1) {
-				if (linenumber == choiceends)
-					linenumber = choicegoto;
-			}
-
-			// Load Objects Dynamically.
-			//Debug.Log(dp.scenedialogues[linenumber].background);
-			if (dp.scenedialogues [linenumber].background != "")
-				BackGround.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> (dp.scenedialogues [linenumber].background.ToString ()) as Sprite;
-			//BackGround.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("BG/Scene1/schoolgate") as Sprite;
+					// Load Objects Dynamically.
+					//Debug.Log(dp.scenedialogues[linenumber].background);
+					if (dp.scenedialogues [linenumber].background != "")
+						BackGround.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> (dp.scenedialogues [linenumber].background.ToString ()) as Sprite;
+					//BackGround.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("BG/Scene1/schoolgate") as Sprite;
 			
-			if (dp.scenedialogues [linenumber].sound != "") {
-				AudioClip clipObj = (AudioClip)Resources.Load (dp.scenedialogues [linenumber].sound);
-				if (clipObj == null)
-					Debug.Log ("Error Loading the sound resource");
-				GetComponent<AudioSource> ().clip = clipObj;
-				GetComponent<AudioSource> ().Play ();
-			}
+					if (dp.scenedialogues [linenumber].sound != "") {
+						AudioClip clipObj = (AudioClip)Resources.Load (dp.scenedialogues [linenumber].sound);
+						if (clipObj == null)
+							Debug.Log ("Error Loading the sound resource");
+						GetComponent<AudioSource> ().clip = clipObj;
+						GetComponent<AudioSource> ().Play ();
+					}
 			
 			
-			if (dp.scenedialogues [linenumber].gotochoice != 0) {
-				endofchoices = dp.scenedialogues [linenumber].gotochoice;
-				SetChoices (dp.scenedialogues [linenumber].gotochoices);
+					if (dp.scenedialogues [linenumber].gotochoice != 0) {
+						endofchoices = dp.scenedialogues [linenumber].gotochoice;
+						SetChoices (dp.scenedialogues [linenumber].gotochoices);
+					}
+					if (typetextcoroutine != null)
+						StopCoroutine (typetextcoroutine);
+					typetextcoroutine = StartCoroutine (TypeText (dp.scenedialogues [linenumber].dialogue.ToString ()));
+					dialoguefinished = false;
+					audiocliploc = dp.scenedialogues [linenumber].sound;
+					if (audiocliploc != null) {
+						// Code Related to Audio
+					}
+					if (dp.scenedialogues [linenumber].background != "") {
+						//code related to background change goes here...
+					}
+					words = dp.scenedialogues [linenumber].dialogue;
+					cc.setcharacter (dp.scenedialogues [linenumber].characher_NAME, dp.scenedialogues [linenumber].pose, dp.scenedialogues [linenumber].position);
+					//	StartCoroutine (start ());
+					if (fromprevious == false)
+						previouslinenumbers.Push (linenumber);
+					linenumber++;
+				} else {
+					if (Application.loadedLevel != Application.levelCount - 1)
+						Application.LoadLevel (Application.loadedLevel + 1);
+				}
 			}
+		} else {
 			if (typetextcoroutine != null)
 				StopCoroutine (typetextcoroutine);
-			typetextcoroutine = StartCoroutine (TypeText (dp.scenedialogues [linenumber].dialogue.ToString ()));
-			audiocliploc = dp.scenedialogues [linenumber].sound;
-			if (audiocliploc != null) {
-				// Code Related to Audio
-			}
-			if (dp.scenedialogues [linenumber].background != "") {
-				//code related to background change goes here...
-			}
-			words = dp.scenedialogues [linenumber].dialogue;
-			cc.setcharacter (dp.scenedialogues [linenumber].characher_NAME, dp.scenedialogues [linenumber].pose, dp.scenedialogues [linenumber].position);
-			//	StartCoroutine (start ());
-			if (fromprevious == false)
-				previouslinenumbers.Push (linenumber);
-			linenumber++;
-		} else {
-			if(Application.loadedLevel != Application.levelCount -1)
-				Application.LoadLevel(Application.loadedLevel + 1);
+			dialoguetext.text = dp.scenedialogues [linenumber - 1].dialogue.ToString ();
+			dialoguefinished = true;
 		}
-	
 	}
 
 	void ResetChoices()
@@ -247,12 +256,13 @@ public class Dialogue : MonoBehaviour {
 
 	}
 	IEnumerator TypeText (string dialogue) {
+
 		dialoguetext.text = string.Empty;
 		foreach (char letter in dialogue.ToCharArray()) {
 			dialoguetext.text += letter;
-
 			yield return new WaitForSeconds (letterpause);
-		}
+		} 
+		dialoguefinished = true;
 	}
 
 	public void previousclick()

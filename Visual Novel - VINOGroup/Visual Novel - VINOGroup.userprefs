@@ -1,14 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Dialogue_Files\Scene1.txt">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Dialogue_Files\Scene0.txt">
     <Files>
-      <File FileName="Assets\Scripts\Dialogue.cs" Line="109" Column="4" />
-      <File FileName="Assets\Resources\Dialogue_Files\Scene1.txt" Line="11" Column="9" />
-      <File FileName="Assets\Scripts\DialogueParser.cs" Line="15" Column="15" />
+      <File FileName="Assets\Scripts\Dialogue.cs" Line="97" Column="31" />
+      <File FileName="Assets\Resources\Dialogue_Files\Scene1.txt" Line="161" Column="14" />
+      <File FileName="Assets\Scripts\DialogueParser.cs" Line="17" Column="40" />
       <File FileName="Assets\Scripts\charController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Resources\Dialogue_Files\Scene2.txt" Line="1" Column="1" />
-      <File FileName="Assets\Resources\Dialogue_Files\Scene0.txt" Line="1" Column="63" />
-      <File FileName="Assets\Scripts\MenuButtonClick.cs" Line="12" Column="9" />
+      <File FileName="Assets\Resources\Dialogue_Files\Scene2.txt" Line="83" Column="38" />
+      <File FileName="Assets\Resources\Dialogue_Files\Scene0.txt" Line="7" Column="1" />
+      <File FileName="Assets\Scripts\MenuButtonClick.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +16,7 @@
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Resources" expanded="True">
               <Node name="Dialogue_Files" expanded="True">
-                <Node name="Scene1.txt" selected="True" />
+                <Node name="Scene0.txt" selected="True" />
               </Node>
             </Node>
             <Node name="Scripts" expanded="True" />

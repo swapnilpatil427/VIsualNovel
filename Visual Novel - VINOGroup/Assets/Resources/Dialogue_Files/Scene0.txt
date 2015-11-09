@@ -1,22 +1,24 @@
 Kalen~ Look, a town ahead. I see an inn, and with it, respite.~0~R~BG/Scene1/logwall ~~0~blank:blank
 Kalen~ I'm exhausted, but invigorated in knowing that our journey is coming to a close.~0~R~BG/Scene1/logwall ~~0~blank:blank
-Kalen~ Are you looking forward to the end, too?~0~R~~~6~[Bark]:4-[...]:5~0~R~BG/Scene1/logwall ~~0~blank:blank
+Kalen~ Are you looking forward to the end, too?~0~R~~~6~[Bark]:4%4%6-[...]:5%5%6~0~R~BG/Scene1/logwall ~~0~blank:blank
 Kalen~ Good, let us steel ourselves for the end.~0~R~~DogBark.mp3~0~d:d
-Kalen~ Ah, you're weary, I can tell. Let's focus on getting some rest.~0~R~BG/Scene1/logwall ~~0~blank:blank
+Kalen~ Ah, you're weary, I can tell. Let's focus on getting some rest.~0~R~~~0~d:d
 Kalen~ Take this coin, get us a room at the inn. I'll see if I can resupply us for the last leg of our journey.~0~R~BG/Scene1/logwall ~~0~blank:blank
+
 Innkeeper~ Hmm...?~0~R~BG/Scene1/logwall ~~0~blank:blank
 Innkeeper~ Ah, a Kelev hound. No one else would dress up their dogs in armor like that.~0~R~BG/Scene1/logwall ~~0~blank:blank
-Innkeeper~ My my, aren't you an impressive specimen. Are you tired, boy?~0~R~~~13~[Bark]:11-[...]:12
+Innkeeper~ My my, aren't you an impressive specimen. Are you tired, boy?~0~R~~~13~[Bark]:11%11%13-[...]:12%12%13
 Innkeeper~ Ah, I see, you're a smart boy, too.~0~R~~DogBark.mp3~0~d:d
 Innkeeper~ You must be awfully tired.~0~R~BG/Scene1/logwall ~~0~blank:blank
-Innkeeper~ Where are you headed?~0~R~~~15~[Bark]:14-[Silence]:15
+Innkeeper~ Where are you headed?~0~R~~~16~[Bark]:14%14%16-[Silence]:15%15%16
 Innkeeper~ I'm talking to a dog, what sort of response did I expect..?~0~R~~DogBark.mp3~0~d:d
 Innkeeper~ I'm talking to a dog, what sort of response did I expect..?~0~R~~~0~d:d
 Innkeeper~ Anyway, suppose you’re looking for a place to stay. There’s enough here for one night. There’s an available room upstairs.~0~R~BG/Scene1/logwall ~~0~blank:blank
+
 Kalen~ Oh, my feet are so weary...~0~R~BG/Scene1/logwall ~~0~blank:blank
 Kalen~ How long have we traveled? Do you remember?~0~R~BG/Scene1/logwall ~~0~blank:blank
 Kalen~ Days faded into weeks and then months...I can't really complain though, the trip was boring, but quite safe.~0~R~BG/Scene1/logwall ~~0~blank:blank
-Kalen~ At least this building's roof looks secure. Remember that one inn that was hit by cannon fire?~0~R~~~24~[Bark]:22-[...]:23
+Kalen~ At least this building's roof looks secure. Remember that one inn that was hit by cannon fire?~0~R~~~24~[Bark]:22%22%24-[...]:23%23%24
 Kalen~ Yes, and then the village elders asked us to help them secure construction material stolen by the local bandits. There weren't even any bandits! They just lost the key to the warehouse!~0~R~~DogBark.mp3~0~d:d
 Kalen~ There were an awful lot of inns, campfires, and beds. I can barely remember myself. As long as I have you, though, that's all that matters.~0~R~BG/Scene1/logwall ~~0~blank:blank
 Kalen~ Hopefully these mages will grant us their panacea, lest we need to force it from their hands.~0~R~BG/Scene1/logwall ~~0~blank:blank
