@@ -1,7 +1,7 @@
-Narrator~Welcome to the story. ~0~R~Backgrounds/Black~~0~b:b
-Narrator~ You're going to take the role of a dog.~0~R~Backgrounds/Black~~0~b:b
+Narrator~Welcome to the story. Click your mouse button to advance the story. ~0~R~Backgrounds/Black~~0~b:b
+Narrator~ You're going to take the role of a dog. Double click to fast forward.~0~R~Backgrounds/Black~~0~b:b
 Narrator~You and your master have traveled countless miles to find a cure for the sick saint. You're almost there.~0~R~Backgrounds/Black~~0~b:b
-Narrator~Have fun. ~0~R~Backgrounds/Black~~0~b:b
+Narrator~One more thing. Hit your escape key to return to the menu.Now, have fun. ~0~R~Backgrounds/Black~~0~b:b
 Narrator~~0~R~Backgrounds/Black~~0~b:b
 Kalen~ Look, a town ahead. I see an inn, and with it, respite.~0~R~Backgrounds/villagefar ~~0~blank:blank
 Kalen~ I'm exhausted, but invigorated in knowing that our journey is coming to a close.~0~R~Backgrounds/villagefar ~~0~blank:blank

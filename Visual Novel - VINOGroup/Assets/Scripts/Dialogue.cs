@@ -57,7 +57,11 @@ public class Dialogue : MonoBehaviour {
 		linenumber = 0;
 	
 	}
-
+	void Update(){
+	if (Input.GetKeyDown (KeyCode.Escape)) {
+			Application.LoadLevel(0);
+		}
+	}
 	public void MouseButtonClick(bool fromprevious)
 	{	
 		if (dialoguefinished == true) {
