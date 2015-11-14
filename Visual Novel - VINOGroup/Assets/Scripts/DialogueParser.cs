@@ -14,8 +14,8 @@ public class DialogueParser : MonoBehaviour {
 		scenedialogues = new List<SceneDialogue> ();
 		int level = Application.loadedLevel;
 		Debug.Log ("Scene"+(level-2));
-	//	LoadDialogueFromFile ("Scene0");
-	LoadDialogueFromFile ("Scene"+(level-2));
+		LoadDialogueFromFile ("Scene0");
+	//LoadDialogueFromFile ("Scene"+(level-2));
 	}
 	
 	// Update is called once per frame

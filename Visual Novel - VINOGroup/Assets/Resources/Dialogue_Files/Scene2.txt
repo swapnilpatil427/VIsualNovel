@@ -11,7 +11,7 @@ Roland~ Sir Roland.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Are you telling me that they conferred a knighthood to you?~Characters/Dismas/smirking~L~Backgrounds/Forest~~0 ~x:x
 Roland~ I was not given a knighthood. I earned my knighthood during the-~Characters/Roland/smiling~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ A ha ha ha ha ha...Oh, that's funny..~Characters/Dismas/veryhappy~L~Backgrounds/Forest~~0 ~x:x
-Roland~ ...~Characters/Roland/default~R~Backgrounds/angry~~0 ~x:x
+Roland~ ...~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ How did I miss that earlier? A knighthood to a mutt? Oh, that's rich...~Characters/Dismas/veryhappy~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Laugh all you want, but know that my cause is just and my goals are noble.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Was, my friend. I think the rules of the game have changed, just a bit now.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
@@ -32,15 +32,15 @@ Roland~ We were less servants to them, and more kin.~Characters/Roland/default~R
 Dismas~ Suppose you got a point. I didn't exactly enjoy a life of such privilege, ya know.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Roland~ I can understand that, but you must understand me as well.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ That's fair. We're gonna be stuck together for a while, why make things sour between us?~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ I hate being alone, really.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ I hate being alone, really.~Characters/Dismas/sad~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Oh?~Characters/Roland/disgust~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ It's not fun. With my handler, at least he pet me every once in a while. Felt nice.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ Like I was an ordinary housecat or something.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ It's not fun. With my handler, at least he pet me every once in a while. Felt nice.~Characters/Dismas/sad~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Like I was an ordinary housecat or something.~Characters/Dismas/sad~L~Backgrounds/Forest~~0 ~x:x
 Dismas~ Oh well, no changing the past now. It's just you and me, as far as I can tell.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Don't worry, I'm certain we'll run into someone. Look up there, what do you see?~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Looks like a house on a meadow.~Characters/Dismas/default~L~Backgrounds/HouseEvening~~0 ~x:x
 Roland~ Maybe we could find someone else there.~Characters/Roland/default~R~Backgrounds/HouseEvening~~0 ~x:x
-Dismas~ Let's go.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Let's go.~Characters/Dismas/default~L~Backgrounds/HouseEvening~~0 ~x:x
 Roland~ Could be the case. I hope my fellow knights survived.~Characters/Roland/sad~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Maybe, maybe not. I wouldn't confidently bet either way.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Roland~ For my sake, I hope the answer is 'maybe'.~Characters/Roland/sad~R~Backgrounds/Forest~~0 ~x:x
@@ -91,4 +91,4 @@ Roland~ Ignore the effects until you find food and warmth.~Characters/Roland/def
 Dismas~ The way I lived, there was no guarantee for that kind of stuff. We had a bad day on the job, we didn't eat and we slept in a cold bed.~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
 Dismas~ Not everyone's as privileged as you, mate.~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
 Dismas~ There's a house ahead. Let's just get somewhere warm before it gets dark.~Characters/Dismas/annoyed~L~Backgrounds/HouseEvening~~0 ~x:x
-Roland~ Very well...~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
+Roland~ Very well...~Characters/Roland/default~R~Backgrounds/HouseEvening~~0 ~x:x

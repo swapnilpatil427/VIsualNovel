@@ -2,7 +2,7 @@ Narrator~Welcome to the story. ~0~R~Backgrounds/Black~~0~b:b
 Narrator~ You're going to take the role of a dog.~0~R~Backgrounds/Black~~0~b:b
 Narrator~You and your master have traveled countless miles to find a cure for the sick saint. You're almost there.~0~R~Backgrounds/Black~~0~b:b
 Narrator~Have fun. ~0~R~Backgrounds/Black~~0~b:b
-Narrator~~0~R~Backgrounds/Blank~~0~b:b
+Narrator~~0~R~Backgrounds/Black~~0~b:b
 Kalen~ Look, a town ahead. I see an inn, and with it, respite.~0~R~Backgrounds/villagefar ~~0~blank:blank
 Kalen~ I'm exhausted, but invigorated in knowing that our journey is coming to a close.~0~R~Backgrounds/villagefar ~~0~blank:blank
 Kalen~ Are you looking forward to the end, too?~0~R~Backgrounds/villagefar~~0~blank:blank
@@ -39,5 +39,3 @@ Kalen~ Hopefully these mages will grant us their panacea, lest we need to force 
 Kalen~ We must not forget our holy purpose.~0~R~Backgrounds/room ~~0~blank:blank
 Kalen~ Lest Abilene perish, and our country suffer.~0~R~Backgrounds/room ~~0~blank:blank
 Kalen~ Well, time for bed. Goodnight, my friend.~0~R~Backgrounds/room~Sounds/ExtinguishCandle~0~blank:blank
-
-
