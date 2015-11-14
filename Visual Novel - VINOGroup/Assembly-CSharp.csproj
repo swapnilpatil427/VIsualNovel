@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueParser.cs" />
+     <Compile Include="Assets\Scripts\GameClickEvents.cs" />
      <Compile Include="Assets\Scripts\MenuButtonClick.cs" />
      <Compile Include="Assets\Scripts\charController.cs" />
      <None Include="Assets\Resources\Dialogue_Files\Scene1 - New.txt" />

@@ -38,9 +38,6 @@ public class Dialogue : MonoBehaviour {
 	charController cc;
 	bool choicepanelvisible;
 	public string words = "";
-	
-
-
 
 	void Awake()
 	{
@@ -111,6 +108,8 @@ public class Dialogue : MonoBehaviour {
 				} else {
 					if (Application.loadedLevel != Application.levelCount - 1)
 						Application.LoadLevel (Application.loadedLevel + 1);
+					//else
+						//Load End Game Scene...
 				}
 			}
 		} else {
@@ -128,8 +127,6 @@ public class Dialogue : MonoBehaviour {
 		choice2.isOn = false;
 		choice3.isOn = false;
 		choice4.isOn = false;
-
-
 	}
 
 	/// <summary>
@@ -184,12 +181,12 @@ public class Dialogue : MonoBehaviour {
 			string[] choices1 = choices [0].Split (':');
 			string[] choices2 = choices [1].Split (':');
 			string[] choices3 = choices[2].Split(':');
-			string[] choices4 = choices[2].Split(':');
+			string[] choices4 = choices[3].Split(':');
 			
 			choices1seg = choices1[1].Split('%');
 			choices2seg = choices2[1].Split('%');
 			choices3seg = choices3[1].Split('%');
-			choices4seg = choices3[1].Split('%');
+			choices4seg = choices4[1].Split('%');
 			
 			choicelabel1.text = choices1 [0];
 			choicelabel2.text = choices2 [0];
@@ -271,4 +268,19 @@ public class Dialogue : MonoBehaviour {
                linenumber = previouslinenumbers.Pop ();
 		MouseButtonClick (true);
 	}
+
+	public void SaveButtonClick()
+	{
+		PlayerPrefs.SetInt ("LineNumber", linenumber);
+		PlayerPrefs.SetInt ("Scene",Application.loadedLevel);
+//		PlayerPrefs.SetString ("Dialoguefinished", true);
+	//	PlayerPrefs.SetString("choicepanelvisible",choicepanelvisible.ToString());
+	//	PlayerPrefs.SetInt ("EndOfChoices", endofchoices.ToString());
+	//	typetextcoroutine = null;
+	//	dialoguefinished = true;
+	//	choicesstart = new List<int> ();
+	//	choicepanelvisible = false;
+	}
+
+
 }

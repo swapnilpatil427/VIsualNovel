@@ -1,31 +1,31 @@
-Dismas~ Faster, minion!~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ You've been sitting on my back for the whole journey. You could at least get off and walk for a bit.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Nah, it bothers you, and that amuses me. Now, faster!~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ Ugh...~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ Faster, minion!~Characters/Dismas/smirking~L~Backgrounds/Forest~~0 ~x:x
+Roland~ You've been sitting on my back for the whole journey. You could at least get off and walk for a bit.~Characters/Roland/annoyed~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ Nah, it bothers you, and that amuses me. Now, faster!~Characters/Dismas/veryhappy~L~Backgrounds/Forest~~0 ~x:x
+Roland~ Ugh...~Characters/Roland/annoyed~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Well, like I said, I don't travel well. My paws are delicate.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ I didn't think they were as delicate as a princess's hands.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Oh, so sorry Roland of Kelev, that I'm not a hardened traveler like you.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ It is Sir Roland of Kelev, if you are to address me by my title.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ SIR Roland?~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Roland~ I didn't think they were as delicate as a princess's hands.~Characters/Roland/sad~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ Oh, so sorry Roland of Kelev, that I'm not a hardened traveler like you.~Characters/Dismas/smirking~L~Backgrounds/Forest~~0 ~x:x
+Roland~ It is Sir Roland of Kelev, if you are to address me by my title.~Characters/Roland/disgust~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ SIR Roland?~Characters/Dismas/thinking~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Sir Roland.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Are you telling me that they conferred a knighthood to you?~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ I was not given a knighthood. I earned my knighthood during the-~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ A ha ha ha ha ha...Oh, that's funny..~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ ...~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ How did I miss that earlier? A knighthood to a mutt? Oh, that's rich...~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Are you telling me that they conferred a knighthood to you?~Characters/Dismas/smirking~L~Backgrounds/Forest~~0 ~x:x
+Roland~ I was not given a knighthood. I earned my knighthood during the-~Characters/Roland/smiling~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ A ha ha ha ha ha...Oh, that's funny..~Characters/Dismas/veryhappy~L~Backgrounds/Forest~~0 ~x:x
+Roland~ ...~Characters/Roland/default~R~Backgrounds/angry~~0 ~x:x
+Dismas~ How did I miss that earlier? A knighthood to a mutt? Oh, that's rich...~Characters/Dismas/veryhappy~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Laugh all you want, but know that my cause is just and my goals are noble.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Was, my friend. I think the rules of the game have changed, just a bit now.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ He has a point. The world is different now. But...~Characters/Roland/default~R~Backgrounds/Forest~~94~I must keep the cause alive:19%43%94-I hope I'm not the last of my kind:44%73%94-Is that how you see life?:77%93%94
+Roland~ He has a point. The world is different now. But...~Characters/Roland/sad~R~Backgrounds/Forest~~94~I must keep the cause alive:19%43%94-I hope I'm not the last of my kind:44%76%94-Is that how you see life?:77%93%94
 Roland~ If that is the case, then it falls to me to keep the traditions of my people alive.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Roland~ Unless I can find my brethren, that is..~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Oh, that's cute. How noble.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ I'm actually shedding a single tear in awe of your nobility.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ You are? Oh, that fills me with such pride-~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ I was kidding.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ Aww...~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
+Roland~ Unless I can find my brethren, that is..~Characters/Roland/disgust~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ Oh, that's cute. How noble.~Characters/Dismas/veryhappy~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ I'm actually shedding a single tear in awe of your nobility.~Characters/Dismas/smirking~L~Backgrounds/Forest~~0 ~x:x
+Roland~ You are? Oh, that fills me with such pride-~Characters/Roland/smiling~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ I was kidding.~Characters/Dismas/smirking~L~Backgrounds/Forest~~0 ~x:x
+Roland~ Aww...~Characters/Roland/sad~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Oh, buck up. I don't think we're the last living things. I think I saw the rat catcher run by earlier.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Dismas~ Just the humans are gone. And honestly, that's not so bad.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ No more being kicked around, not getting food...~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ No more being kicked around, not getting food...~Characters/Dismas/sad~L~Backgrounds/Forest~~0 ~x:x
 Roland~ I was not treated that way by humanity. My perception is different from yours.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Roland~ In Kelev, I, and my hound brothers, were treated as an equal to humans. We trained alongside them, lived alongside them, fought alongside them.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Roland~ We were less servants to them, and more kin.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
@@ -33,7 +33,7 @@ Dismas~ Suppose you got a point. I didn't exactly enjoy a life of such privilege
 Roland~ I can understand that, but you must understand me as well.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ That's fair. We're gonna be stuck together for a while, why make things sour between us?~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Dismas~ I hate being alone, really.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ Oh?~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
+Roland~ Oh?~Characters/Roland/disgust~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ It's not fun. With my handler, at least he pet me every once in a while. Felt nice.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Dismas~ Like I was an ordinary housecat or something.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Dismas~ Oh well, no changing the past now. It's just you and me, as far as I can tell.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
@@ -41,20 +41,20 @@ Roland~ Don't worry, I'm certain we'll run into someone. Look up there, what do 
 Dismas~ Looks like a house on a meadow.~Characters/Dismas/default~L~Backgrounds/HouseEvening~~0 ~x:x
 Roland~ Maybe we could find someone else there.~Characters/Roland/default~R~Backgrounds/HouseEvening~~0 ~x:x
 Dismas~ Let's go.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ Could be the case. I hope my fellow knights survived.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
+Roland~ Could be the case. I hope my fellow knights survived.~Characters/Roland/sad~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Maybe, maybe not. I wouldn't confidently bet either way.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ For my sake, I hope the answer is 'maybe'.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
+Roland~ For my sake, I hope the answer is 'maybe'.~Characters/Roland/sad~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Well, I'm certain there are a few mutts still roaming your homeland. Maybe they're still around.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Yes, that's what I meant by fellow knights.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Oh, right, right. I forgot your homeland gave out knighthoods to mutts. I could probably get a knighthood myself if I had a snout.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Oh, right, right. I forgot your homeland gave out knighthoods to mutts. I could probably get a knighthood myself if I had a snout.~Characters/Dismas/smirking~L~Backgrounds/Forest~~0 ~x:x
 Roland~ We are all mutts. We are bred not for purity, but for strength and endurance.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Oh, uh-~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ And I'd like to see you attempt to earn a knighthood. You probably couldn't even pick up a sword.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ Oh, uh-~Characters/Dismas/thinking~L~Backgrounds/Forest~~0 ~x:x
+Roland~ And I'd like to see you attempt to earn a knighthood. You probably couldn't even pick up a sword.~Characters/Roland/smiling~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Why do you need a sword, anyways? Can't you just jump on top of someone and tear their throats out?~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Roland~ We are not allowed to. We are not wild dogs tearing at prey. We are above that.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ Well, whatever works. Just seems inefficient, in my opinion.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Roland~ We are well adapted to it. Wielding swords is fundamental to our fighting style.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ What would a sword in the mouth do better than jaws?~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ What would a sword in the mouth do better than jaws?~Characters/Dismas/thinking~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Taking down horses, for one.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ You're joking.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Roland~ I'm serious. We run to the side of a mounted knight and slice open his mount's legs.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
@@ -69,26 +69,26 @@ Roland~ Getting kicked is a guarantee, really - fortunately our armor can sustai
 Dismas~ You ever get hit?~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Not by a real horse, but with a stick that simulated it. It's part of our training.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
 Dismas~ So, what do you do if there's a column of heavily armored, tight knit cavalry?~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ That's delegated to the archers.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Hmm....~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ Cool.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Roland~ That's delegated to the archers.~Characters/Roland/smiling~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ Hmm....~Characters/Dismas/thinking~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Cool.~Characters/Dismas/excited~L~Backgrounds/Forest~~0 ~x:x
 Roland~ It's getting a bit dark. I can make out a house on the horizon, though.~Characters/Roland/default~R~Backgrounds/HouseEvening~~0 ~x:x
 Dismas~ I see it, too. Let's get inside.~Characters/Dismas/default~L~Backgrounds/HouseEvening~~0 ~x:x
-Dismas~ Oh come on, now, don't be so bloody dense! It's just a saying!~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ Now that no one's around, things are very obviously going to be different, will they?~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Roland~ Things are different, but we cannot treat life as a game.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ You don't gotta be serious all the time. You take things too seriously, you start hesitating when things go wrong. ~Characters/Dismas/default~L~Backgrounds/Forest~~0~x:x
-Dismas~ And when you hesistate, you make a mistake, and that's it.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Oh come on, now, don't be so bloody dense! It's just a saying!~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Now that no one's around, things are very obviously going to be different, will they?~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
+Roland~ Things are different, but we cannot treat life as a game.~Characters/Roland/disgust~R~Backgrounds/Forest~~0 ~x:x
+Dismas~ You don't gotta be serious all the time. You take things too seriously, you start hesitating when things go wrong. ~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0~x:x
+Dismas~ And when you hesistate, you make a mistake, and that's it.~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
 Roland~ And if you are lax all the time, you let your guard down and that will also be your end.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Well-~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ Suppose you got a point.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Well-~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Suppose you got a point.~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
 Roland~ I was born destined to be a knight, and raised to fulfill my destiny. Order and discipline are fundamental to my lifestyle.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Yeah, yeah, yeah.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Yeah, yeah, yeah.~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Perhaps with a bit more discipline you could actually walk alongside me and not need to be carried.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ Screw you, man. Stuff like order and discipline don't mean anything when you need to steal to survive.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ Try to stay disciplined when you're freezing and starving to death at the same time. Order and discipline doesn't fill an empty stomach.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Screw you, man. Stuff like order and discipline don't mean anything when you need to steal to survive.~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Try to stay disciplined when you're freezing and starving to death at the same time. Order and discipline doesn't fill an empty stomach.~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
 Roland~ Ignore the effects until you find food and warmth.~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x
-Dismas~ The way I lived, there was no guarantee for that kind of stuff. We had a bad day on the job, we didn't eat and we slept in a cold bed.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ Not everyone's as privileged as you, mate.~Characters/Dismas/default~L~Backgrounds/Forest~~0 ~x:x
-Dismas~ There's a house ahead. Let's just get somewhere warm before it gets dark.~Characters/Dismas/default~L~Backgrounds/HouseEvening~~0 ~x:x
+Dismas~ The way I lived, there was no guarantee for that kind of stuff. We had a bad day on the job, we didn't eat and we slept in a cold bed.~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ Not everyone's as privileged as you, mate.~Characters/Dismas/annoyed~L~Backgrounds/Forest~~0 ~x:x
+Dismas~ There's a house ahead. Let's just get somewhere warm before it gets dark.~Characters/Dismas/annoyed~L~Backgrounds/HouseEvening~~0 ~x:x
 Roland~ Very well...~Characters/Roland/default~R~Backgrounds/Forest~~0 ~x:x

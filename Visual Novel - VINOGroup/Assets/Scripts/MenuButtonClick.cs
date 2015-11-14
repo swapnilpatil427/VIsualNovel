@@ -12,4 +12,9 @@ public class MenuButtonClick : MonoBehaviour {
 	public void OnSceneSelectClick () {
 		Application.LoadLevel (1);
 	}
+
+	public void onexitclick()
+	{
+		Application.Quit ();
+	}
 }
