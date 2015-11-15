@@ -20,7 +20,6 @@ public class charController : MonoBehaviour {
 		middlecharposition.GetComponent<SpriteRenderer> ().sprite = null;
 			rightcharposition.GetComponent<SpriteRenderer>().sprite = null;
 		chartext.text = name.ToUpper();
-		int x = 0;
 		charsprite = Resources.Load<Sprite>(character) as Sprite;
 		if (position.Contains("L")) {
 			leftcharposition.GetComponent<SpriteRenderer>().sprite = charsprite;

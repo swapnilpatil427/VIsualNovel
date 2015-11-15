@@ -26,6 +26,7 @@ public class Dialogue : MonoBehaviour {
 	public Text choicelabel2;
 	public Text choicelabel3;
 	public Text choicelabel4;
+	public Text SaveGameText;
 	Coroutine typetextcoroutine;
 	int linenumber;
 	int endofchoices = -1;
@@ -39,26 +40,29 @@ public class Dialogue : MonoBehaviour {
 	bool choicepanelvisible;
 	public string words = "";
 
-	void Awake()
-	{
-		// load all frames in fruitsSprites array
-		fruitSprites = Resources.LoadAll<Sprite> ("maiko");
-		for(int i=0;i<fruitSprites.Length;i++)
-		Debug.Log (fruitSprites [i].name);
-	}
-	// Use this for initialization
+		// Use this for initialization
 	void Start () {
+		SaveGameText.text = "";
 		typetextcoroutine = null;
 		dialoguefinished = true;
 		choicesstart = new List<int> ();
 		choicepanelvisible = false;
-		dp =GameObject.Find ("DialogueParser").GetComponent<DialogueParser> ();
+		dp = GameObject.Find ("DialogueParser").GetComponent<DialogueParser> ();
 		cc = GameObject.Find ("Character").GetComponent<charController> ();
-		linenumber = 0;
-	
+		Debug.Log (PlayerPrefs.GetInt ("FromContinue"));
+		if (PlayerPrefs.GetInt ("FromContinue") == 0) {
+			linenumber = 0;
+		} else {
+			linenumber = PlayerPrefs.GetInt ("LineNumber");
+			choiceends = PlayerPrefs.GetInt("ChoiceEnds");
+			choicegoto = PlayerPrefs.GetInt("Choicegoto");
+			endofchoices = PlayerPrefs.GetInt("EndOfChoices");
+			//MouseButtonClick(false);
+			
+		}
 	}
 	void Update(){
-	if (Input.GetKeyDown (KeyCode.Escape)) {
+		if (Input.GetKeyDown (KeyCode.Escape)) {
 			Application.LoadLevel(0);
 		}
 	}
@@ -111,7 +115,15 @@ public class Dialogue : MonoBehaviour {
 					linenumber++;
 				} else {
 					if (Application.loadedLevel != Application.levelCount - 1)
+					{
+						PlayerPrefs.SetInt("UnlockedLevels",PlayerPrefs.GetInt("UnlockedLevels")+1);
+						PlayerPrefs.SetInt ("FromContinue", 0);
 						Application.LoadLevel (Application.loadedLevel + 1);
+					}
+					else if(Application.loadedLevel == Application.levelCount-1)
+					{
+						PlayerPrefs.SetInt("UnlockedLevels",PlayerPrefs.GetInt("UnlockedLevels")+1);
+					}
 					//else
 						//Load End Game Scene...
 				}
@@ -249,6 +261,16 @@ public class Dialogue : MonoBehaviour {
 			else
 				endofchoices = -1;
 		}
+		else if (choice4.isOn) {
+			linenumber = int.Parse(choices4seg[0].Trim())- 1;
+			if(choices4seg[1].Trim() != string.Empty)
+			{
+				choiceends = int.Parse(choices4seg[1].Trim());
+				choicegoto = int.Parse(choices4seg[2].Trim())-1;
+			}
+			else
+				endofchoices = -1;
+		}
 
 		choicepanelvisible = false;
 		screenCanvas.SetActive(false);
@@ -273,10 +295,21 @@ public class Dialogue : MonoBehaviour {
 		MouseButtonClick (true);
 	}
 
+	IEnumerator SavingGame () {
+		
+		PlayerPrefs.SetInt ("LineNumber", linenumber-1);
+		PlayerPrefs.SetInt ("Scene",Application.loadedLevel);
+		PlayerPrefs.SetInt("ChoiceEnds",choiceends);
+		PlayerPrefs.SetInt("Choicegoto",choicegoto);
+		PlayerPrefs.SetInt("EndOfChoices",endofchoices);
+		SaveGameText.text = "Saved...";
+		yield return new WaitForSeconds(2);
+		SaveGameText.text = "";
+	}
+
 	public void SaveButtonClick()
 	{
-		PlayerPrefs.SetInt ("LineNumber", linenumber);
-		PlayerPrefs.SetInt ("Scene",Application.loadedLevel);
+		StartCoroutine (SavingGame());
 //		PlayerPrefs.SetString ("Dialoguefinished", true);
 	//	PlayerPrefs.SetString("choicepanelvisible",choicepanelvisible.ToString());
 	//	PlayerPrefs.SetInt ("EndOfChoices", endofchoices.ToString());
@@ -285,6 +318,6 @@ public class Dialogue : MonoBehaviour {
 	//	choicesstart = new List<int> ();
 	//	choicepanelvisible = false;
 	}
-
+	
 
 }

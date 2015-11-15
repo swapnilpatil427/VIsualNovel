@@ -12,10 +12,14 @@ public class DialogueParser : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		scenedialogues = new List<SceneDialogue> ();
-		int level = Application.loadedLevel;
-		Debug.Log ("Scene"+(level-2));
-		LoadDialogueFromFile ("Scene0");
-	//LoadDialogueFromFile ("Scene"+(level-2));
+		//Debug.Log ("Scene"+(level-2));
+		//LoadDialogueFromFile ("Scene1");
+		if (PlayerPrefs.GetInt ("FromContinue") == 1) {
+			LoadDialogueFromFile ("Scene" + (PlayerPrefs.GetInt ("Scene") - 2));
+		} else {
+			int level = Application.loadedLevel;
+			LoadDialogueFromFile ("Scene" + (level - 2));
+		}
 	}
 	
 	// Update is called once per frame
@@ -68,7 +72,7 @@ public class DialogueParser : MonoBehaviour {
 		//Debug.Log (sc.characher_NAME + "linenumber:" + count);
 		//Debug.Log (sc.dialogue + sc.pose);
 		}
-		catch(Exception E)
+		catch(Exception)
 		{
 			Debug.Log("Error in Line Number: " + count); 
 		}
