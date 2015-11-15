@@ -13,7 +13,7 @@ public class DialogueParser : MonoBehaviour {
 	void Start () {
 		scenedialogues = new List<SceneDialogue> ();
 		//Debug.Log ("Scene"+(level-2));
-		//LoadDialogueFromFile ("Scene1");
+	//	LoadDialogueFromFile ("Scene0");
 		if (PlayerPrefs.GetInt ("FromContinue") == 1) {
 			LoadDialogueFromFile ("Scene" + (PlayerPrefs.GetInt ("Scene") - 2));
 		} else {
