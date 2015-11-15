@@ -152,7 +152,7 @@ Roland~ Terrible things?~Characters/Roland/disgust~R~Backgrounds/villagemorning~
 Dismas~ Terrible things.~Characters/Dismas/thinking~L~Backgrounds/villagemorning~~0~blank:blank
 Roland~ These houses look poor and ruined. Most of the doors are barred shut, as if people were still sleeping inside. I don't see any way I can get inside.~Characters/Roland/default~R~Backgrounds/villagemorning~~0~blank:blank
 Roland~ There's nary a soul, nor a trace of one in the town. Where could everyone have gone?~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
-Roland~ The outskirts are also empty, but I see something odd on the ground. Should I investigate it? ~ 0 ~ R ~Backgrounds/villagemorning ~Characters/Roland/default ~ 100~[Investigate]:156%%-[Come back later]:100%%
+Roland~ The outskirts are also empty, but I see something odd on the ground. Should I investigate it? ~ 0 ~ R ~Backgrounds/villagemorning ~Characters/Roland/default~100~[Investigate]:156%%-[Come back later]:100%%
 Roland~ That's rather disturbing - on the ground is a black silhouette of a person, like a shadow, but there is nothing to cast it. A small mound of dust or something is piled at the feet. Should I tell Dismas? ~ Characters/Roland/surprised ~ R ~Backgrounds/shadow~ ~ 100 ~ [Inform him]:157 %%-[Maybe not]:99%%
 Roland~ Dismas, I found something interesting.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
 Dismas~ Bah, nothing...Hm? What'd you find?~Characters/Dismas/smirking~L~Backgrounds/villagemorning~~0~blank:blank
