@@ -3,9 +3,10 @@ using System.Collections;
 
 public class MenuButtonClick : MonoBehaviour {
 
-
+	public GameObject credits;
 	void Start()
 	{
+		credits.SetActive (false);
 		//PlayerPrefs.SetInt ("UnlockedLevels", 0);
 	}
 	// Use this for initialization
@@ -28,7 +29,14 @@ public class MenuButtonClick : MonoBehaviour {
 	{
 		Application.Quit ();
 	}
-
+	public void OnCreditClick()
+	{
+		credits.SetActive (true);
+	}
+	public void CreditsBackClick()
+	{
+		credits.SetActive (false);
+	}
 	public void OnContinueClick()
 	{
 		PlayerPrefs.SetInt ("FromContinue", 1);

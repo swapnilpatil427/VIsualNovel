@@ -17,22 +17,8 @@ Loading G:\Game Projects\Visual Novel - VINOGroup\visualnovel_Data\Managed\Unity
 Platform assembly: G:\Game Projects\Visual Novel - VINOGroup\visualnovel_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading G:\Game Projects\Visual Novel - VINOGroup\visualnovel_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: G:\Game Projects\Visual Novel - VINOGroup\visualnovel_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.238 seconds
+- Completed reload, in  0.492 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
-<RI> Initialized touch support.
-Platform assembly: G:\Game Projects\Visual Novel - VINOGroup\visualnovel_Data\Managed\System.dll (this message is harmless)
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 36c -> priority: 1 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 19.842167 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 317.
-Total: 0.819829 ms (FindLiveObjects: 0.078821 ms CreateObjectMapping: 0.037768 ms MarkObjects: 0.665469 ms  DeleteObjects: 0.028737 ms)
-
-0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
