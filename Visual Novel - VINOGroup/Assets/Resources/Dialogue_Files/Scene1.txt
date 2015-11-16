@@ -56,7 +56,7 @@ Roland~ I don't understand.~Characters/Roland/disgust~R~Backgrounds/StoneWall ~~
 Dismas~ Oh, those mages are terrible. They're a blight on this land - naught but ruthless, arrogant tyrants with no respect for laws or faiths.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
 Roland~ Have you...seen these mages?~Characters/Roland/disgust~R~Backgrounds/StoneWall ~~0~blank:blank
 Dismas~ Oh, I have. I've seen a few glimpses of their 'work' when stealing from them. It's really scary stuff, what they do.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
-Roland~ Hmm...~Characters/Roland/disgust~R ~Backgrounds/StoneWall~~69~What sort of things have you seen?:60%66%69-You can tell me later. For now, we need to figure out what happened to everyone:67%68%69
+Roland~ Hmm...~Characters/Roland/disgust~R ~Backgrounds/StoneWall~~69~What sort of things have you seen?:60%66%69-You can tell me later. For now, we need to figure out what happened to everyone.:67%68%69
 Dismas~ Frankly, I can't quite remember. There were flashes of light, and always people being pushed around in chains, but...~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
 Dismas~ Maybe I blocked all of it out. Wouldn't be surprised at myself, really.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
 Roland~ They kidnap people?~Characters/Roland/surprised~R~Backgrounds/StoneWall ~~0~blank:blank

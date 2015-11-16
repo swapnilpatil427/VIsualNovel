@@ -20,19 +20,20 @@ public class charController : MonoBehaviour {
 		middlecharposition.GetComponent<SpriteRenderer> ().sprite = null;
 			rightcharposition.GetComponent<SpriteRenderer>().sprite = null;
 		chartext.text = name.ToUpper();
-		charsprite = Resources.Load<Sprite>(character) as Sprite;
-		if (position.Contains("L")) {
-			leftcharposition.GetComponent<SpriteRenderer>().sprite = charsprite;
-		}
-		else if (position.Contains("M")) {
+		if (character != string.Empty && character != "0") {
+			charsprite = Resources.Load<Sprite> (character) as Sprite;
+			if (position.Contains ("L")) {
+				leftcharposition.GetComponent<SpriteRenderer> ().sprite = charsprite;
+			} else if (position.Contains ("M")) {
 
-			middlecharposition.GetComponent<SpriteRenderer>().sprite = charsprite;
+				middlecharposition.GetComponent<SpriteRenderer> ().sprite = charsprite;
+			} else if (position.Contains ("R")) {
+				rightcharposition.GetComponent<SpriteRenderer> ().sprite = charsprite;
+			}
+		
+			chartext.text = name.ToUpper ();
+			characterLogo.GetComponent<Image> ().sprite = charsprite;
 		}
-		else if (position.Contains("R")) {
-			rightcharposition.GetComponent<SpriteRenderer>().sprite = charsprite;
-		}
-	chartext.text = name.ToUpper();
-		characterLogo.GetComponent<Image> ().sprite = charsprite;
 		//Debug.Log (name);
 	}
 
