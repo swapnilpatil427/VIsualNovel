@@ -1,0 +1,187 @@
+Roland~ Ah, good morning, master- ~Characters/Roland/default~R~Backgrounds/logwall ~~0~blank:blank
+Roland~ Master's not here. Where could he be? ~ Characters/Roland/surprised ~ R ~ Backgrounds/logwall ~~ 0 ~ blank:blank
+Roland~ His equipment is still here, but he's not in bed. I doubt he'd leave before rousing me.~Characters/Roland/disgust~R~Backgrounds/logwall~~0~blank:blank
+Roland~ I should investigate. ~ Characters/Roland/disgust ~ R ~ Backgrounds/logwall ~~4~[Investigate gear]:5%6 %4-[Investigate bed]:7%7% 4-[Check downstairs]:8%%
+Roland~ Master's armor. This set of well-worn armor is thin and light, but quite sturdy, making it ideal for long journeys or aimless wandering. ~Characters/Roland/disgust~R~Backgrounds/logwall~~0~blank:blank
+Roland~ Master is commanded to find a cure for Saint Abilene’s illness, and his/her travels have brought us to the land of Athaq, where such a cure is rumored to exist. ~Characters/Roland/disgust~R~Backgrounds/logwall~~0~blank:blank
+Roland~ The blankets are still on the bed, and it looks otherwise undisturbed. It's like he never got up, or wanted to cover his tracks for some reason.~Characters/Roland/disgust~R~Backgrounds/logwall~~0~blank:blank
+Roland~ The door is unopened, but I can manage to get it open. Should I go check downstairs?~Characters/Roland/disgust~ R ~ Backgrounds/logwall ~~ 9 ~ Let's see what's downstairs.:9 % % -I should look around for more clues.:4% % 
+Roland~ It's quiet, and I don't see anyone. Wait a minute..~Characters/Roland/default~R~Backgrounds/Black ~Sounds/OldDoor~0~blank:blank
+Roland~ Some thief is rumnaging through the pantry!~Characters/Roland/angry~R~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ *growl*~Characters/Roland/angry~R~Backgrounds/standoff ~Sounds/DogGrowl~0~blank:blank
+Cat~ Whoa! Hey!~Characters/Dismas/annoyed~L~Backgrounds/standoff ~~0~blank:blank
+Roland~ Thief! Freeze!~Characters/Roland/angry~R~Backgrounds/standoff ~~0~blank:blank
+Cat~ Wait, did you just talk?~Characters/Dismas/thinking~L~Backgrounds/standoff ~~0~blank:blank
+Roland~ Relinquish your stolen goods, or -~Characters/Roland/angry~R~Backgrounds/standoff~~0~blank:blank
+Roland~ wait, did I just talk?~Characters/Roland/surprised~R~Backgrounds/standoff ~~0~blank:blank
+Cat~ Talking dogs? Oh, no, regular ones are bad enough and now, talking ones....~Characters/Dismas/annoyed~L~Backgrounds/standoff ~~0~blank:blank
+Roland~ But you're talking too!~Characters/Roland/surprised~R~Backgrounds/standoff ~~0~blank:blank
+Cat~ Now I must - ~Characters/Dismas/annoyed~L~Backgrounds/standoff ~~0~blank:blank
+Cat~ Wait, I am talking!~Characters/Dismas/thinking~L~Backgrounds/standoff ~~0~blank:blank
+Cat~ Huh, I don't remember doing that yesterday.~Characters/Dismas/default~L~Backgrounds/standoff ~~0~blank:blank
+Roland~ ...~Characters/Roland/disgust~R~Backgrounds/standoff ~~0~blank:blank
+Cat~ ...~Characters/Dismas/default~L~Backgrounds/standoff ~~0~blank:blank
+Roland~ No matter, you are still stealing from the pantry. Relinquish your stolen goods, or face my wrath.~Characters/Roland/disgust~R~Backgrounds/standoff ~~0~blank:blank
+Cat~ Now, if I can talk, and that mutt can talk, does this mean anyone else can? Granted, my sample size is quite small, but..~Characters/Dismas/thinking~L~Backgrounds/standoff ~~0~blank:blank
+Roland~ Hey! Don't ignore me!~Characters/Roland/angry~R~Backgrounds/standoff ~~0~blank:blank
+Cat~ Mate, every human's vanished, you and I are talking like people, and you're worried about some stolen food? I mean, look around, who's there to steal it from?~Characters/Dismas/annoyed~L~Backgrounds/standoff ~~0~blank:blank
+Roland~ Well...~Characters/Roland/default~R~Backgrounds/standoff ~~0~blank:blank
+Roland~ Matter of fact, I'm pretty hungry too.~Characters/Roland/sad~R~Backgrounds/standoff ~~0~blank:blank
+Cat~ Let's make a deal: you don't wring my neck and I'll share some of my food with you?~Characters/Dismas/smirking~L~Backgrounds/standoff ~~0~blank:blank
+Cat~ It's pretty high up here, too, I don't think you can get up here. Whaddaya say?~Characters/Dismas/smirking~L~Backgrounds/standoff ~~0~blank:blank
+Roland~ The cat makes a good point. Or I could just bash the cabinet and make him fall. It looks quite rickety. ~ Characters/Roland/disgust ~ R ~ Backgrounds/standoff ~~ 49 ~ [Cooperate with the cat]:33%38%49-[Hit the cabinet]:39%48%49
+Roland~ Very well, come down. I won't hurt you.~Characters/Roland/annoyed~R~Backgrounds/standoff ~~0~blank:blank
+Cat~ That's the spirit. Here, have a bone.~Characters/Dismas/veryhappy~L~Backgrounds/StoneWall ~~0~blank:blank
+Cat~ Now, formal introductions. I am Dismas. I've lived in this poor excuse for a village my whole life, and I've seen many types come and go.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Cat~ Your colors, that armor design, hmm...Kelev, I wager?~Characters/Dismas/smirking~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ ...~Characters/Roland/chewing~R~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ Oh, I'm sorry. I'll wait til you finish chewing.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ *fwump*~~L~Backgrounds/Black ~Sounds/Slam~0~blank:blank
+Cat~ AAUGHGUGH-~~L~Backgrounds/Black ~Sounds/CatAngry~0~blank:blank
+Cat~ Oh, I'm alive.~Characters/Dismas/annoyed~L~Backgrounds/StoneWall ~~0~blank:blank
+Cat~ Don't do that!~Characters/Dismas/angry~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ Heh heh heh...~Characters/Roland/chewing~R~Backgrounds/StoneWall ~~0~blank:blank
+Cat~ Have some manners, will you?~Characters/Dismas/angry~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ I'm sorry.~Characters/Roland/smiling~R~Backgrounds/StoneWall ~~0~blank:blank
+Cat~ Are you?~Characters/Dismas/thinking~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ Not very. So who are you, anyway?~Characters/Roland/smiling~R~Backgrounds/StoneWall ~~0~blank:blank
+Cat~ My name is Dismas, and I am not fond of falling.~Characters/Dismas/annoyed~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ I am Sir Roland of Kelev. My master and I seek a cure for the ailing Saint Abilene. We are journeying to the Tower to ask the venerated mages there.~Characters/Roland/disgust~R~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ The Tower? You mean you want to talk to those mages?~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ Yes, and I wish to ask them for a cure for-~Characters/Roland/default~R~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ Ah ha ha ha ha! Oh, that's funny...~Characters/Dismas/veryhappy~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ What's so funny?~Characters/Roland/disgust~R~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ Believing that you can get those mages to do something for you, like a favor. Oh, that's rich..and quite pathetic, frankly.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ I don't understand.~Characters/Roland/disgust~R~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ Oh, those mages are terrible. They're a blight on this land - naught but ruthless, arrogant tyrants with no respect for laws or faiths.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ Have you...seen these mages?~Characters/Roland/disgust~R~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ Oh, I have. I've seen a few glimpses of their 'work' when stealing from them. It's really scary stuff, what they do.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ Hmm...~Characters/Roland/disgust~R ~Backgrounds/StoneWall~~69~What sort of things have you seen?:60%66%69-You can tell me later. For now, we need to figure out what happened to everyone:67%68%69
+Dismas~ Frankly, I can't quite remember. There were flashes of light, and always people being pushed around in chains, but...~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ Maybe I blocked all of it out. Wouldn't be surprised at myself, really.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ They kidnap people?~Characters/Roland/surprised~R~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ Ohh, yes they do. I've seen em with their big bodyguards, coming through town and taking away anyone they please.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Roland~ What? Wait, is it possible that they could be responsible?~Characters/Roland/disgust~R~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ At this scale? I don't know, honestly. They rely on us poor farmers and villagers for food and collateral in case anyone has the bright idea of trying to take them down.~Characters/Dismas/default~L~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ Speaking of which, where is everyone? Not that I mind, but I feel we should go look for them. I'll get some food for the road.~Characters/Dismas/thinking~L~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ Good idea...just thinking of what I've seen makes my hair stand at attention. ~Characters/Dismas/thinking~L~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ I'm going to get some food for the road.~Characters/Dismas/thinking~L~Backgrounds/StoneWall ~~0~blank:blank
+Dismas~ ...~~L~Backgrounds/Black ~~0~blank:blank
+Dismas~ Wow, the village looks completely empty.~Characters/Dismas/thinking~L~Backgrounds/villagemorning ~Sounds/Wind~0~blank:blank
+Roland~ You didn't notice when you got up?~Characters/Roland/disgust~R~Backgrounds/villagemorning ~~0~blank:blank
+Dismas~ I'm usually up well before anyone else is up, to get my breakfast. The village is never this quiet, though. I'd expect at least a few people meandering about.~Characters/Dismas/default~L~Backgrounds/villagemorning ~~0~blank:blank
+Roland~ Did you see any animals?~Characters/Roland/disgust~R~Backgrounds/villagemorning ~~0~blank:blank
+Dismas~ Nah, animals aren't very common in these parts, not like Kelev where there are dogs everywhere. In this land, cats are probably the most common animal, and in this village, it's just me and the rat catcher.~Characters/Dismas/default~L~Backgrounds/villagemorning ~~0~blank:blank
+Dismas~ Well, as far as non livestock animals go anyway. Us cats, like the people here, need to steal to survive.~Characters/Dismas/default~L~Backgrounds/villagemorning ~~0~blank:blank
+Roland~ Hmm...~Characters/Roland/default~R~Backgrounds/villagemorning~~85~Why steal?:77%79%85-This land seems ruined as is...:80%81%85-Resorting to theft? How dishonorable.:82%84%85
+Dismas~ Why not steal? This whole land is a ruin! All of our honest coin is taken by those mages, and anyone dumb enough to attempt honest work is going to starve come winter.~Characters/Dismas/default~L~Backgrounds/villagemorning ~~0~blank:blank
+Dismas~ You want to survive here, you need to make money under the table - and everyone has been. ~Characters/Dismas/default~L~Backgrounds/villagemorning ~~0~blank:blank
+Dismas~ The butcher smuggled things by stuffing them in his pigs. That tavern you were staying at ran quite a backdoor gambling scene.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Ah, you're an observant mutt, aren't you. All our honest coin is taken as tribute by those mages, so the rest of us need to lie, cheat, and swindle each other and passerby to survive.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Myself included, as you know. Though, my handler said once it wasn't this bad, but I suppose limitless power on par with the gods has a way of getting to your head.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Are you really that bloody dense? This land is a ruin! Everything's gone to scat ever since those mages showed up, lording over us and taking all our honest coin as 'tribute'.~Characters/Dismas/annoyed~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ You want to survive here, you have to do dishonest work - lie, cheat, swindle, doesn't matter. That inn you stayed at, did you know the keeper ran a backdoor gambling scene?~Characters/Dismas/annoyed~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Everyone here's a little dirty, and we have to be. Don't be so naive.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ That's a shame. Power comes with responsiblity, and it is a shame to see the land fall to ruin because of their carelessness.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Ah, yes, glorious, opulent Athaq. Land of the powerful, apathetic mages and the peasants they oppress.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ But isn't it true that they hold a cure for any ailment?~Characters/Roland/default~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Honestly, they're so secretive I wouldn't be surprised if they owned a living, breathing dragon.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ Dragons don't exist.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Clearly you haven't seen enough of our countryside.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ But, they still do hold a cure, don't they?.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ They probably do, but we've never seen it. Why waste their cures on us poor townsfolk? I feel rather fortunate to be a cat because of this - I remember more than a few times plague would take this village, and every time we were powerless to do anything about it.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ Oh, that's terrible. Has no one done anything about it? The Knights of Kelev wouldn't stand for this sort of atrocity.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Oh, trust me, people have. Whether for justice, righteousness, or loot, more than a few adventurers and armies have marched on the mages.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ And every time they did, something terrible would happen to them. I think the last group that marched on them were some holy knights or something. Their insides were put outside, or something. Or worse.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Hold up, here's my house. Let me check if my handler's inside.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ Your handler?~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Yes, the hand that feeds me and the mouth that tells me what to steal. Oh, hm..I don't see him. I'm going to keep checking though. You should have a look around, as well.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ Very well. I'll look around and see if I can't find any clues.~Characters/Roland/default~R~Backgrounds/villagemorning~~0~blank:blank
+Roland~ I wonder where everyone went..~Characters/Roland/disgust~R~Backgrounds/villagemorning~~100~[Speak to Dismas]:101%%-[Investigate the houses]:153%153%100-[Investigate the streets]:154%154%100-[Investigate town edge]:155%%
+Dismas~ Yeah? What is it?~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ What to say...~Characters/Roland/default~R~Backgrounds/villagemorning~~102~Do you have any ideas where everyone went?:103 %112 %102-What else do you know of this village?:113% 132%102-What else have you seen, or know of the mages?:133%151%102-Nothing, carry on.:99%%
+Dismas~ Can't say for certain, honestly. I'm as confused as you are. Try looking for any traces of where they could have gone - footprints, something, anything. You're a dog, dogs are good at tracking. Go track.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ Have you tracked down your owner?~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ No, unfortunately. His equipment, his boots are still here.~Characters/Dismas/sad~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ Are you worried for your owner?~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ I'm-look, he's not my owner. He just feeds me.~Characters/Dismas/sad~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ You sound worried.~Characters/Roland/default~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ I'm not worried, just - let me focus!~Characters/Dismas/annoyed~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ Very well, you seem rather emotionally invested...~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ ...~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Any further questions?~Characters/Dismas/annoyed~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ There’s not much to say, really. We’re just a village on the way to the Tower, so we get a lot of people coming through here that want to visit the mages, for some reason or another. Usually dignitaries or diplomats or some such visitors. They make easy pickins though, heh heh heh.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ What is the tower, exactly? My master didn't learn much when we were briefed on our quest.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ The Tower serves as the main liaison between the Spire mages and the rest of us puny mortals.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ There's actually a lot of 'towers', per se, but the primarily liaison is THE Tower, which I assume you were heading to. Most mages live and work in the Spire, their big floating fortress in the middle of nowhere.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ I mean, according to myth you can't even get in from the ground. It's above a lake of fire or something. You want to get in, you have to go to one of the Towers, and teleport your way in.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ A lake of fire? No way.~Characters/Roland/surprised~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Well, they certainly are powerful enough to create a lake of fire. And I'll be honest, if I were a great, powerful lord, I'd want a lake of fire to keep the pesky peasants out.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ It's intimidating, you know?~Characters/Dismas/smirking~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ I don't see the point, though...why antagonize your populace like that?~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Erh...~Characters/Dismas/thinking~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Well, at least it'd keep me warm in the wintertime.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ And roast you in the summertime.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Point taken. I wonder if those mages feel toasty right now.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ We are blessed with warm weather right now, so I would imagine so.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Would they be able to extinguish it in the summer or something? Maybe they'd have some cooling magic beneath them in the summer.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ That sounds terribly inefficient.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Yeah, suppose you got a point. Hey, I'm not a mage, I'm just guessing.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ You seem to know quite a bit about local politics.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ My handler was a politics professor. He went a little nutty and started talking to me, and I eventually picked up.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ I see.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ All I know is that they’re not to be trifled with, at all. I’ve stolen my share of a few things from them - coins, mostly, occasionally an expensive brooch or two. ~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Those mages love covering their robes and weighing down their necks and wrists with jewelry. Fortunately they never seem to notice when a few necklaces go missing. ~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Hey, it pays the bills, I’m not complaining.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ How extravagant. In Kelev, even the wealthiest and most powerful wore simple garbs.~Characters/Roland/default~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Well, my friend, this isn't Kelev. Different strokes for different folks, ya know.~Characters/Dismas/smirking~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ In Aquila, they put blue eagles on absolutely everything, in the South it's rubies, serpents, and  yellow, and in the North it's all fur.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Also consider that they're the ruling class of Athaq, my friend. They can wear whatever they please.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Haven't you ever seen them visit you and collect tribute?~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ I don't believe so.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Really? From what I know, they make rather regular visits to each land. Are you sure?~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ I'm sure.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ There's always some bloke in a long black robe, neck and wrists heavy with jewelry. They're always flanked by these two big bodyguards in pitch-black plate armor. You've NEVER seen them come around?~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ I don't believe so. Kelev is a strong, prosperous land with a history of victory over magic.~Characters/Roland/default~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ I hope I wasn't hallucinating seeing them around. ~Characters/Dismas/thinking~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ Do tell me more, though.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ I saw them once, just passing through. Based on what my handler said, they'll send a mage and bodyguards through an area, find the local leader, and make their demands.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Usually it's grain and coin, but occasionally they'll ask for alchemical reagents, animals and people. There's no set pattern to the people, though.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Sometimes they'll need a few albino kids, sometimes it's identical female adult twins, sometimes it's feeble old men. They don't ask for much of the latter, but any who defy them...have things happen to them.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ Terrible things?~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Terrible things.~Characters/Dismas/thinking~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ These houses look poor and ruined. Most of the doors are barred shut, as if people were still sleeping inside. I don't see any way I can get inside.~Characters/Roland/default~R~Backgrounds/villagemorning~~0~blank:blank
+Roland~ There's nary a soul, nor a trace of one in the town. Where could everyone have gone?~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Roland~ The outskirts are also empty, but I see something odd on the ground. Should I investigate it?~Characters/Roland/default~R~Backgrounds/villagemorning ~~100~[Investigate]:156%%-[Come back later]:100%%
+Roland~ That's rather disturbing - on the ground is a black silhouette of a person, like a shadow, but there is nothing to cast it. A small mound of dust or something is piled at the feet. Should I tell Dismas? ~ Characters/Roland/surprised ~ R ~Backgrounds/shadow~ ~ 100 ~ [Inform him]:157 %%-[Maybe not]:99%%
+Roland~ Dismas, I found something interesting.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Bah, nothing...Hm? What'd you find?~Characters/Dismas/smirking~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ I found a...shadow.~Characters/Roland/surprised~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ A what?~Characters/Dismas/thinking~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ A shadow!~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Oi, mate, guess what, I found one too! It's right below you, cast by these shacks! Look, another one behind you!~Characters/Dismas/smirking~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ No, not like that. It's a silhouette of a person on the ground, but there's no person to cast it.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Okay, now that sounds creepy.~Characters/Dismas/default~L~Backgrounds/villagemorning~~0~blank:blank
+Roland~ There's also a mound of dust at the feet.~Characters/Roland/disgust~R~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Okay, that's DEFINITELY creepy. Let's go look.~Characters/Dismas/thinking~L~Backgrounds/villagemorning~~0~blank:blank
+Dismas~ Oh, that poor sap. Oh, this day gets worse and worse...~Characters/Dismas/thinking~L~Backgrounds/shadow~~0~blank:blank
+Roland~ There's a definite direction to it.~Characters/Roland/disgust~R~Backgrounds/shadow~~0~blank:blank
+Dismas~ Yeah, I can see it. It's pointing west.~Characters/Dismas/default~L~Backgrounds/shadow~~0~blank:blank
+Roland~ Which means that what cast it came from the east.~Characters/Roland/disgust~R~Backgrounds/shadow~~0~blank:blank
+Dismas~ Oh, right, right.~Characters/Dismas/default~L~Backgrounds/shadow~~0~blank:blank
+Roland~ What lies to the east?~Characters/Roland/disgust~R~Backgrounds/shadow~~0~blank:blank
+Dismas~ I honestly have no idea.~Characters/Dismas/default~L~Backgrounds/shadow~~0~blank:blank
+Roland~ Really? I thought you were familiar with the lay of the land.~Characters/Roland/disgust~R~Backgrounds/shadow~~0~blank:blank
+Dismas~ Not really...my handler was. I haven't been out much, just scaled the Tower and prowled around this village my whole life.~Characters/Dismas/default~L~Backgrounds/shadow~~0~blank:blank
+Dismas~ Do I look like I travel well?~Characters/Dismas/default~L~Backgrounds/shadow~~0~blank:blank
+Roland~ You sounded like you were well traveled.~Characters/Roland/disgust~R~Backgrounds/shadow~~0~blank:blank
+Dismas~ I can barely walk a mile without getting blisters. My paws are made for climbing, not for terrain.~Characters/Dismas/default~L~Backgrounds/shadow~~0~blank:blank
+Roland~ Any idea who this is?~Characters/Roland/disgust~R~Backgrounds/shadow~~0~blank:blank
+Dismas~ I think so. Could've been the village bum. He gave me a scrap of bread one time.~Characters/Dismas/sad~L~Backgrounds/shadow~~0~blank:blank
+Roland~ You knew him?~Characters/Roland/disgust~R~Backgrounds/shadow~~0~blank:blank
+Dismas~ Yeah, I think so. I think he used to be a knight, who became disgraced and eventually wandered his way here. Poor guy didn't even have a bed to sleep in.~Characters/Dismas/default~L~Backgrounds/shadow~~0~blank:blank
+Roland~ What a terrible fate to be consigned to.~Characters/Roland/default~R~Backgrounds/shadow~~0~blank:blank
+Dismas~ Yeah, well, anyways, this means we got a clue on where to head next.~Characters/Dismas/default~L~Backgrounds/shadow~~0~blank:blank
+Roland~ Are we heading that way?~Characters/Roland/disgust~R~Backgrounds/shadow~~0~blank:blank
+Dismas~ Hey, we can't stay here forever, can we?~Characters/Dismas/default~L~Backgrounds/shadow~~0~blank:blank
+

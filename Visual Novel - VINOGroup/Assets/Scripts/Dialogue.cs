@@ -22,6 +22,7 @@ public class Dialogue : MonoBehaviour {
 	public Toggle choice2;
 	public Toggle choice3;
 	public Toggle choice4;
+	public Toggle autoButton;
 	public Text choicelabel1;
 	public Text choicelabel2;
 	public Text choicelabel3;
@@ -42,6 +43,7 @@ public class Dialogue : MonoBehaviour {
 
 		// Use this for initialization
 	void Start () {
+		autoButton.isOn = false;
 		SaveGameText.text = "";
 		typetextcoroutine = null;
 		dialoguefinished = true;
@@ -286,13 +288,34 @@ public class Dialogue : MonoBehaviour {
 			yield return new WaitForSeconds (letterpause);
 		} 
 		dialoguefinished = true;
+		if (autoButton.isOn == true) {
+			yield return new WaitForSeconds (1);
+			MouseButtonClick (false);
+		}
+	}
+	public void OnAutoClick()
+	{
+		StartCoroutine (AutoGame());
+
+	}
+	IEnumerator AutoGame () {
+		string onoff = (autoButton.isOn) ? "On" : "OFF";
+		SaveGameText.text = "Auto: "+onoff;
+		yield return new WaitForSeconds (1);
+		SaveGameText.text = "";
 	}
 
 	public void previousclick()
-{
-		previouslinenumbers.Pop ();
-               linenumber = previouslinenumbers.Pop ();
-		MouseButtonClick (true);
+	{
+		if (previouslinenumbers.Count > 0) {
+			linenumber = previouslinenumbers.Pop ();
+			dialoguefinished = true;
+			choicepanelvisible = false;
+			screenCanvas.SetActive(false);
+			if(previouslinenumbers.Count == 0)
+				previouslinenumbers.Push(linenumber);
+			MouseButtonClick (true);
+		}
 	}
 
 	IEnumerator SavingGame () {

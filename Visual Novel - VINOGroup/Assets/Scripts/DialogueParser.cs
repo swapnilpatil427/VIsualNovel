@@ -28,7 +28,7 @@ public class DialogueParser : MonoBehaviour {
 	}
 	void LoadDialogueFromFile(string Filename)
 	{
-		string file = Application.dataPath +"/Resources/Dialogue_files/" + Filename +".txt";
+		string file = Application.dataPath +"/Dialogue_files/" + Filename +".txt";
 		StreamReader sr;
 		string line;
 		int count = 0;
