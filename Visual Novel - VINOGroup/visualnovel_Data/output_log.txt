@@ -17,7 +17,7 @@ Loading G:\Game Projects\Visual Novel - VINOGroup\visualnovel_Data\Managed\Unity
 Platform assembly: G:\Game Projects\Visual Novel - VINOGroup\visualnovel_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading G:\Game Projects\Visual Novel - VINOGroup\visualnovel_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: G:\Game Projects\Visual Novel - VINOGroup\visualnovel_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.492 seconds
+- Completed reload, in  0.533 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
